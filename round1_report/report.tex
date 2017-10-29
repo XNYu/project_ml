@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thin Sectioned Essay
+% LaTeX Template
+% Version 1.0 (3/8/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original Author:
+% Nicolas Diaz (nsdiaz@uc.cl) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 11pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
+
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{graphicx} % Required for including pictures
+\usepackage{wrapfig} % Allows in-line images
+\usepackage{setspace}
+\usepackage{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Required for accented characters
+\linespread{1.5} % Change line spacing here, Palatino benefits from a slight increase by default
+
+\makeatletter
+\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+
+\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
+% \setlength{\baselineskip}{1.3\baselineskip}
+\begin{flushright} % Right align
+% \linespread{2.0}
+{\LARGE\@title} % Increase the font size of the title
+
+% {\Large\@subtitle}
+
+\vspace{20pt} % Some vertical space between the title and author name
+
+{\large\@author} % Author name
+\\\@date % Date
+
+\vspace{40pt} % Some vertical space between the author block and abstract
+\end{flushright}
+
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \title{%
+%   \textbf{What is the Function of REM Sleep?} \\
+
+
+% % \subTitle{
+% 	% \Large Philosophical Thinking and Evaluation of Two Theories
+% 	}
+\title{\textbf{Human Resources Analytics}\\
+ % Title
+\Large Round 1-ML Project Proposal} % Subtitle
+
+\author{\textsc{Team 4} % Author
+\\{\textit{Yonghua Yu(yy5uu)}}
+\\{\textit{Yuchen Zhou(yz2mf)}}
+\\{\textit{Xuyu Yi(xy4fh)}}
+\\{\textit{Weicheng Chao(wc4bp)}}
+\\{\textit{Shuo Li(sl6sf)}}
+} % Institution
+
+\date{\today} % Date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT AND KEYWORDS
+%----------------------------------------------------------------------------------------
+
+%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+
+% \begin{abstract}
+%  Sleep is no doubt important for not only human but also other advanced mammals. The explainations and theories of the function of sleep have never stopped to be come by while none of them can fulfill every biologic patterns of sleep. This article will first illustrate some basic background and notions of sleep pattern and evaluate two theories of REM sleep with the assist of predictive Learning framework and various philosophical inductive principles. 
+% \end{abstract}
+
+% \hspace*{3,6mm}\textit{Keywords:} REM sleep,reverse learning ,Occam's Razor,Falsifiability % Keywords
+
+% \vspace{30pt} % Some vertical space between the abstract and first section
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\section*{Background}
+\begin{enumerate}
+\item Talents have always been one of the core competence for any company.
+\item Human resources department in a company plays a critical role in the talent management processes.
+\item Machine Learning technique helps HRs have a better understanding about their work and make them gain the capability to perceive and prevent any potential issues in advance.
+
+\end{enumerate}
+
+
+
+%------------------------------------------------
+
+\section*{Problem Description and Motivation}
+\textbf{Why are our best and most experienced employees leaving prematurely?}
+We hope our analysis and prediction about whether our current employees would leave or not could help HRs have a better understanding about this brain drain problem and prevent it in advance.
+
+
+%------------------------------------------------
+\section*{Data Source}
+\begin{itemize}
+\item Our data include 14999 data about the status of our employee, including satisfaction level, last evaluation, number project, average monthly hours, time spend company, Work accident, left, promotion last 5years, sales and salary.
+\item Data source: 
+\\ https://www.kaggle.com/ludobenistant/hr-analytics/data
+
+\end{itemize}
+
+
+
+%------------------------------------------------
+
+\section*{Algorithms}
+
+\begin{enumerate}
+\item Decision Tree
+\\ A simple but good decision support tool for classification
+\item KNN
+\\ A classification algorithm with high accuracy especially for number-format data
+
+\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
